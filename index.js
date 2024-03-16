@@ -21,6 +21,6 @@ decbtn.addEventListener("click",()=>{
 })
 let clearbtn=document.getElementById("clear");
 clearbtn.addEventListener("click",()=>{
-    count=1;
+    count=0;
     text.innerText=`Your Currenct Count is : ${count}`
 })
